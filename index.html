@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>project_7-PhotopiX_website_design</title>
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/google-fonts.css">
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg">
+	  <div class="container">
+	    <a class="navbar-brand" href="#">𝑷𝒉𝒐𝒕𝒐<span class="logo">𝒑𝒊</span>𝐗</a>
+	    <button class="navbar-toggler border-0
+	    shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+	    	<i class="fa-solid fa-bars"></i>
+	    </button>
+	    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	      <div class="offcanvas-header">
+	        <h5 class="offcanvas-title navbar-brand" id="offcanvasNavbarLabel">𝑷𝒉𝒐𝒕𝒐<span>𝒑𝒊</span>𝐗</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	      </div>
+	      <div class="offcanvas-body">
+	        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+	          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+	          <li class="nav-item"><a class="nav-link" aria-current="page" href="#gallary">gallary</a></li>
+	          <li class="nav-item"><a class="nav-link" aria-current="page" href="#about">about</a></li>
+	          <li class="nav-item"><a class="nav-link" aria-current="page" href="#contact">contact</a></li>
+	        </ul>
+	        <form class="d-flex mt-3 nav-src" role="search">
+	          <i class="fa-solid fa-magnifying-glass"></i>
+	          <button class="btn" type="submit">login</button>
+	        </form>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<form action="https://www.google.com/search" method="get" id="search-form">
+		<input type="search" placeholder="search hear..." id="search-box" name="q">
+		<!-- <label for="search-box" class="fa fa-search"></label> -->
+		<button type="submit"><i class="fa fa-search"></i></button>
+		<i class="fa fa-close"></i>
+	</form>
+<!-- ===================== navbar part end ====================== -->
+<!-- =================== banner part start ======================= -->
+	<section class="banner-part">
+		<div class="container">
+			<div class="banner-content">
+				<i class="fa-solid fa-camera-retro"></i>
+				<h1 data-aos="zoom-in">Capturing the moments that <br>captivate your heart</h1>
+				<form action="https://www.google.com/search" method="get" id="bnr-srch-box">
+					<input type="search" placeholder="Search here..." id="bnr-srch" name="q">
+					<button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</div>
+		</div>
+	</section>
+<!-- =================== banner part end ======================= -->
+
+
+<!-- =================== gallery part start ======================= -->
+	<section id="gallary" class="filter-gallary">
+		<div class="protfolio-menu">
+			<ul>
+				<li class="active" data-filter="*">all</li>
+				<li data-filter=".nature">nature</li>
+				<li data-filter=".travel">travel</li>
+				<li data-filter=".photography">photography</li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="protfolio-item">
+				<div class="item nature">
+					<a href="image/nature.webp" data-lightbox="models" data-title="nature_1">
+						<img src="image/nature.webp" alt="" data-aos="flip-left">
+					</a>
+				</div>
+				<div class="item nature">
+					<a href="image/nature-2.webp" data-lightbox="models" data-title="nature_2">
+						<img src="image/nature-2.webp" alt="">
+					</a>
+				</div>
+				<div class="item nature">
+					<a href="image/nature-3.webp" data-lightbox="models" data-title="nature_3">
+						<img src="image/nature-3.webp" alt="">
+					</a>
+				</div>
+				<div class="item travel">
+					<a href="image/travel.webp" data-lightbox="models" data-title="travel_1">
+						<img src="image/travel.webp" alt="">
+					</a>
+				</div>
+				<div class="item travel">
+					<a href="image/travel-2.webp" data-lightbox="models" data-title="travel_2">
+						<img src="image/travel-2.webp" alt="">
+					</a>
+				</div>
+				<div class="item travel">
+					<a href="image/travel-3.webp" data-lightbox="models" data-title="travel_3">
+						<img src="image/travel-3.webp" alt="">
+					</a>
+				</div>
+				<div class="item photography">
+					<a href="image/photography.webp" data-lightbox="models" data-title="photography_1">
+						<img src="image/photography.webp" alt="">
+					</a>
+				</div>
+				<div class="item photography">
+					<a href="image/photography-2.webp" data-lightbox="models" data-title="photography_2">
+						<img src="image/photography-2.webp" alt="">
+					</a>
+				</div>
+				<div class="item photography">
+					<a href="image/photography-3.webp" data-lightbox="models" data-title="photography_3">
+						<img src="image/photography-3.webp" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- =================== gallery part end ======================= -->
+
+
+<!-- ====================== about part start ======================= -->
+	<section id="about" class="about-part">
+		<div class="heading">
+			<h1>our <span>information</span></h1>
+			<p>what our member says</p>
+		</div>
+		<div class="container">
+			<div class="about-content">
+				<div class="about-img">
+					<img src="image/about-img.webp" alt="" data-aos="zoom-in">
+				</div>
+				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing  elit.<br> Neque architecto iusto  repellendus,<br> libero asperiores recusandae provident ut</p>
+				<h3><span>*</span> maria sharapova</h3>
+				<div class="icon">
+					<i class="fa-brands fa-square-facebook" data-aos="zoom-in-right" data-aos-delay="100"></i>
+					<i class="fa-brands fa-square-instagram" data-aos="zoom-in-right" data-aos-delay="200"></i>
+					<i class="fa-brands fa-square-whatsapp" data-aos="zoom-in-right" data-aos-delay="300"></i>
+					<i class="fa-brands fa-square-twitter" data-aos="zoom-in-right" data-aos-delay="400"></i>
+				</div>
+			</div>
+			<div class="swiper mySwiper">
+			    <div class="swiper-wrapper">
+			      <div class="swiper-slide">
+			        <img src="image/images-3.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-1.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-2.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-3.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-4.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-1.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-2.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-3.jpg" alt="">
+			      </div>
+			      <div class="swiper-slide">
+			        <img src="image/images-4.jpg" alt="">
+			      </div>
+			    </div>
+    			<div class="swiper-pagination"></div>
+  			</div>
+		</div>
+	</section>
+<!-- ====================== about part end ======================= -->
+
+
+<!-- ====================== footer part start ======================= -->
+	<footer id="contact">
+		<div class="container">
+			<div class="footer-box">
+				<div class="row">
+					<div class="col-md-6 col-12 mb-md-md-0 col-sm-6 col-12 mb-4">
+						<div class="footer-box-text" data-aos="zoom-in-right" data-aos-offset="140" data-aos-delay="100">
+							<h2>subscribe out newsletter</h2>
+							<h6>we're a tearm of non-cynics who truly care for our work</h6>
+						</div>
+					</div>
+					<div class="col-md-6 col-12">
+						<form action="#" id="footer-form" data-aos="zoom-in-right" data-aos-offset="140" data-aos-delay="200">
+							<input type="email" placeholder="enter your email...">
+							<button type="subscribe" class="f-btn">subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer-content">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-12" data-aos="zoom-in" data-aos-offset="140" data-aos-delay="100">
+						<div class="content">
+							<div class="fc-heading">
+								<h3>information</h3>
+							</div>
+							<div class="fc-text">
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente blanditiis repellendus</p>
+							</div>
+							<div class="fc-icon">
+								<i class="fa-brands fa-whatsapp"></i>
+								<i class="fa-brands fa-instagram"></i>
+								<i class="fa-solid fa-paper-plane"></i>
+								<i class="fa-brands fa-twitter"></i>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12" data-aos="zoom-in" data-aos-offset="140" data-aos-delay="200">
+						<div class="content">
+							<div class="fc-heading">
+								<h3>useful links</h3>
+							</div>
+							<div class="fc-link">
+								<ul>
+									<li><a href="#">about us</a></li>
+									<li><a href="#">gallary</a></li>
+									<li><a href="#">blog posts</a></li>
+									<li><a href="#">pricing plan</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12" data-aos="zoom-in" data-aos-offset="140" data-aos-delay="300">
+						<div class="content">
+							<div class="fc-heading">
+								<h3>details</h3>
+							</div>
+							<div class="fc-link">
+								<ul>
+									<li><a href="#">photograps</a></li>
+									<li><a href="#">gallary</a></li>
+									<li><a href="#">about</a></li>
+									<li><a href="#">pricing plan</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12" data-aos="zoom-in" data-aos-offset="140" data-aos-delay="400">
+						<div class="content">
+							<div class="fc-heading">
+								<h3>help & support</h3>
+							</div>
+							<div class="fc-link">
+								<ul>
+									<li><a href="#">privacy policy</a></li>
+									<li><a href="#">tearm and conditions</a></li>
+									<li><a href="#">tecnical support</a></li>
+									<li><a href="#">computer care</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-part">
+			<hr>
+			<p>Copyright &copy 2023 By <span>Tashin Ahmed</span></p>
+		</div>
+	</footer>
+<!-- ====================== footer part end ======================= -->
+
+
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="js/jquery-3.7.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+	<script type="text/javascript">
+		$('protfolio-item').isotope({
+		  // options
+		  itemSelector: '.item',
+		  layoutMode: 'fitRows'
+		});
+		$('.protfolio-menu ul li').on('click', function(){
+			$(this).siblings().removeClass('active')
+			$(this).addClass('active')
+
+			var selector = $(this).attr('data-filter')
+			$('.protfolio-item').isotope({
+				filter:selector
+			})
+			return false;
+		})
+	</script>
+	<script>
+	    var swiper = new Swiper(".mySwiper", {
+	      effect: "coverflow",
+	      grabCursor: true,
+	      centeredSlides: true,
+	      slidesPerView: "auto",
+	      coverflowEffect: {
+	        rotate: 10,
+	        stretch: 0,
+	        depth: 300,
+	        modifier: 1,
+	        slideShadows: true,
+	      },
+	      loop: true,
+	       autoplay: {
+        		delay: 700,
+        		disableOnInteraction: false,
+      		},
+	    });
+	  </script>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+</body>
+</html>
